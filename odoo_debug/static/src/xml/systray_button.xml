@@ -1,0 +1,8 @@
+<templates>
+  <t t-name="issabel_api_log.SystrayButton">
+    <div class="o-dropdown dropdown d-flex">
+      <button  class="btn btn-primary" t-on-click="() =>this.odoo_debug()">Debug</button>
+    
+    </div>
+  </t>
+</templates>
